@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+}
+
+.img{
+  border-radius: 50%;
+  height: 50vh;
+  width: 50vh;
+  object-fit: cover;
+  object-position: center;
+  border: 3px solid crimson;
+}
+
+.bad-practice-img{
+  background-image: url(../images/cat.jpeg);
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 320px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  border: 3px solid brown;
+}
