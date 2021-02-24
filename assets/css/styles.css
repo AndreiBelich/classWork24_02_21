@@ -4,25 +4,13 @@
   padding: 0;
 }
 
-.container{
-  width: 200px;
-  height: 200px;
-  background-color: brown;
-  border: 3px solid #2345ba;
-  display: inline-block;
-  text-align: center;
-  font-size: 25px;
-  padding-top: 75px;
-}
+.wrapper{
+  /*
+  vmin vmax
+  */
 
-.hidden-ver1{
-  opacity: 0.5;
-}
-
-.hidden-ver2{
-  display: none;
-}
-
-.hidden-ver3{
-  visibility: hidden;
+  width: 50vmax;
+  height: 50vmin;
+  background-color: coral;
+  border: 3px solid #fa349b;
 }
